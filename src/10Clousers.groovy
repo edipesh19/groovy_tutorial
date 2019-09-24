@@ -1,10 +1,24 @@
 // Functional programming
+/**
+ * Closures are Block of code that can
+ *  - take parameter
+ *  - refer variable
+ *  - return values
+ *  - can be passed as parameter
+ */
 
 def str = "Hello "
+// Closure that referring variable
 def myClouser1 = {println "$str"}
+
+// Closure that take parameter
+def myClouser2 = {name -> println "$str $name"}
+
+// Closure that return values
+def addClouser = {a,b,c -> return (a+b+c)}
+
 myClouser1.call()
 
-def myClouser2 = {name -> println "$str $name"}
 myClouser2.call("Dipesh")
 
 
@@ -16,7 +30,7 @@ def method1( c){
 
 method1(myClouser2)
 
-def addClouser = {a,b,c -> return (a+b+c)}
+
 
 def method2( c){
     println c.call(10,20,30)

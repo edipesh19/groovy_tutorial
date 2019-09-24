@@ -13,7 +13,7 @@ println Short.MIN_VALUE
 println Short.MAX_VALUE
 
 println "============= integer ============="
-// Integere
+// Integer
 int i = 1000
 println i
 println Integer.MIN_VALUE

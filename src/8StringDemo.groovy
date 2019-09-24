@@ -4,17 +4,17 @@
 // ''' ... ''' -> Multiline print
 // """ ... """ -> Multiline print
 
-// In Groovy String can beb accessed as array
+// In Groovy String can be accessed as array
 def name = "Dipesh"
-println name.length()
-println name[2]
-println name[-2]
-println name[0..2]
-println name[0,2,4]
-println name.substring(2)
-println name.subSequence(1, 4)
-println name.charAt(3)
-println name.indexOf('s')
+println name.length() //6
+println name[2] // p
+println name[-2] // s
+println name[0..2] // Dip
+println name[0,2,4] // Dps
+println name.substring(2) // pesh
+println name.subSequence(1, 4) // ipe
+println name.charAt(3) // e
+println name.indexOf('s') // 4
 
 def str = "This is groovy string"
 
